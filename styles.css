@@ -1,0 +1,159 @@
+/*_______________________________________ importing the fonts  ___________________________________________________________*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+/* font for text  */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* font for text  */
+
+/* font for contents */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+/* font for contents */
+
+
+/*__________________________________________ importing the fonts ends ___________________________________________________*/
+
+/* overwriting the css of bootstrap  */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+:root {
+    --background-color: #E5BEEC;
+    --light-color: #FDE2F3;
+    --sub-color: #917FB3;
+    --text-color: #2A2F4F;
+}
+
+/* styling the heading and the navbar */
+
+body {
+    /* background-color: var(--background-color); */
+    /* background-image: linear-gradient(to right top, #393646, #423d4e, #4c4455, #564c5d, #605364, #72606f, #846e7a, #957c85, #b09697, #c9b2ab, #dfd0c4, #f4eee0); */
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.navbar {
+    background-color: #4c424e22;
+}
+
+/* Navbar: styling the logo  */
+.logo {
+    width: 10rem;
+
+}
+
+/* Navbar: styling the content  */
+nav {
+    font-family: 'PT Serif', serif;
+    background-color: var(--background-color);
+    /* opacity: 0.96; */
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--text-color);
+}
+
+.navbar-brand:hover {
+    color: var(--text-color);
+}
+
+.nav-link:hover {
+    color: black
+}
+
+#navbarSupportedContent {
+    justify-content: center;
+}
+
+/*__________________________________________ navbar css ends here__________________________________________ */
+
+/* _________________________________________ styling the first section ____________________________________ */
+.heading {
+    font-family: 'PT Serif', serif;
+    /* font-family: 'PT Sans', sans-serif; */
+    color: var(--text-color);
+    padding-left: 14rem;
+}
+
+.heading button a {
+    color: var(--background-color);
+}
+
+
+.btn {
+    background-color: var(--heading-color);
+    color: black;
+    /* background-image: linear-gradient(to left bottom, #2a2f4f, #3b3d61, #4e4c73, #615b86, #756a99, #8978a6, #9c86b4, #b095c1, #c5a7cc, #d9bad8, #eccee5, #fde2f3); */
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.learn-more {
+    transition: background-image 2s ease-in-out;
+
+}
+
+.btn:hover {
+    color: rgb(32, 32, 34);
+    /* background-image: linear-gradient(to right top, #2a2f4f, #3b3d61, #4e4c73, #615b86, #756a99, #8978a6, #9c86b4, #b095c1, #c5a7cc, #d9bad8, #eccee5, #fde2f3); */
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.heading-text {
+    font-size: 5rem;
+    display: flex;
+}
+
+
+/* .head-row{
+    background-image: url("images/bg_img.jpg");
+} */
+
+/*________________________________________ event contents starts here __________________________________________ */
+/* maninging the size of each image used in the event section */
+.events {
+    /* background-color: var(--light-color); */
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+.hack-img {
+    width: 14rem;
+}
+
+.speak-img {
+    width: 23rem;
+}
+
+.Workshop-img {
+    width: 20rem;
+
+}
+
+.Conference-img {
+    width: 22rem;
+}
+
+
+.event-contents {
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+
+
+/* .nav-link:hover{
+    color: var(--sub-heading-color);
+} */
+
+/* _________________________________ Footer Section starts here _________________________________________ */
+.footer{
+    background-color: #000000;
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+}
