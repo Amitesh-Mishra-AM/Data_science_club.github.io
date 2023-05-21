@@ -28,12 +28,22 @@
     --text-color: #2A2F4F;
 }
 
-/* styling the heading and the navbar */
-
 body {
     /* background-color: var(--background-color); */
     /* background-image: linear-gradient(to right top, #393646, #423d4e, #4c4455, #564c5d, #605364, #72606f, #846e7a, #957c85, #b09697, #c9b2ab, #dfd0c4, #f4eee0); */
     background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+/* -------------------------------------------------- styling the heading and the navbar --------------------------------------------*/
+
+navbar:before{
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
 }
 
 .navbar {
